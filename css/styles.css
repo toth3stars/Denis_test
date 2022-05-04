@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+}
+
+
+.first_screen {
+    background-color: rgba(44, 44, 44, 0.8);
+    background-image: url("../img/1st_screen/1st_screen_bg.jpg");
+    width: 1920px;
+    height: 800px;
+    text-align: center;
+}
+
+.signup_button {
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0, 0, 0, 0.22);
+    box-shadow: inset 0px -5px 0px 0px rgba(0, 0, 0, 0.17);
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    margin: auto;
+}
+
+.yellow {
+    font-family: Roboto;
+    font-size: 41px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f9bf3b;
+}
+
+.white {
+    font-family: Roboto;
+    font-size: 80px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+p {
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.highlighted {
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.signup_button {
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.21);
+    color: #ffffff;
+}
+
+.know_more {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+}
